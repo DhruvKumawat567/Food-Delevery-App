@@ -37,6 +37,9 @@
     padding: 20px;
     border-radius: 4px;
 }
+
 @media (max-width: 768px){
-.place-order{ flex-direction: column; gap: 30px; }.placeorder-left, .placeorder-right{ max-width: 100%; }
+.place-order{ 
+    flex-direction: column; gap: 30px; 
+ }
 } 

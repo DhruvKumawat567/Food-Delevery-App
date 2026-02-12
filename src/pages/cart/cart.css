@@ -29,8 +29,22 @@
   
 }
 .cart-items-item .cross{
-    cursor: pointer;
+cursor: pointer;
+color: rgb(255, 255, 255); font-size: medium;
+background-color: red;
+ border: none;
+border-radius: 50%;
+font-weight: 700;
+width: 20px;
+ height: 20px; 
+ display: flex; 
+ justify-content:center; 
+  align-items: center;
 }
+.cart-items-item .cross:active{
+     scale: 0.95;
+     transform: scale(0.95);
+ }
 .cart-bottom{
     margin-top: 80px;
     display: flex;

@@ -3,7 +3,7 @@ import './Navbar.css';
 import { StoreContext } from '../../context/StoreContext.jsx';
 import { useState} from 'react';
 import assets from '../../assets/assets';
-import Profile from '../proflie/profile.jsx';
+import Profile from '../proflie/Profile.jsx';
 import {Link} from 'react-router-dom';
 const Navbar = ({setShowlogin,showlogin,user,setUser}) => {
   const [menu, setMenu] = useState('home');

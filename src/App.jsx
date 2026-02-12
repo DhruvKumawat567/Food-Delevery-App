@@ -5,7 +5,7 @@ import Loginpopup from './components/loginpopup/Loginpopup.jsx';
 import { useState, useEffect } from 'react';
 import Home from './pages/home/home';
 import Footer from './components/Footer/Footer';
-import Cart from './pages/Cart/Cart';
+import Cart from './pages/cart/cart';
 import PlaceHolder from './pages/PlaceHolder/PlaceHolder';
 import './App.css';
  const App = () => {

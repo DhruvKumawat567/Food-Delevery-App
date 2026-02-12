@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './navbar.css';  
+import './Navbar.css';  
 import { StoreContext } from '../../context/StoreContext.jsx';
 import { useState} from 'react';
 import assets from '../../assets/assets';

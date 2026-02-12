@@ -6,6 +6,7 @@ const PlaceHolder = () => {
   const { getTotalCartAmount } = useContext(StoreContext);
   return (
     <form className="place-order" onSubmit={(e) => e.preventDefault()}>
+        <div className="payment-detail">
       <div className="placeorder-left">
         <p className="title"> Delivery Information</p>
         <div className="multifields">
@@ -43,6 +44,7 @@ const PlaceHolder = () => {
           </div>
           <button>PROCEED TO PAYMENT</button>
         </div>
+      </div>
       </div>
     </form>
   );

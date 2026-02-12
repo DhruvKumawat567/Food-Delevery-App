@@ -1,0 +1,16 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    color: rgb(53, 52, 52);
+    font-weight: 800;
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.food-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    gap: 30px;
+    margin-top: 30px;
+    row-gap: 50px;
+}

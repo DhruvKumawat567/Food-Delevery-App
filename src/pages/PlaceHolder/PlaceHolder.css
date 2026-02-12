@@ -1,0 +1,39 @@
+.place-order{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:100px;
+    gap: 50px;
+}
+.placeorder-left{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.placeorder-left .title{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: rgb(66, 66, 66);
+}
+.placeorder-left input{
+    width: 100%;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    font-size: 16px;
+    outline-color: red;
+    
+}
+.placeorder-left .multifields{
+    display: flex;
+    gap: 10px;
+}
+.placeorder-right{
+    width: 100%;
+    max-width: max(40%,600px);
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 4px;
+}
